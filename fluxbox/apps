@@ -1,0 +1,11 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=gnome-terminal-window-8a08801d-44ab-4ed8-8397-7aed8b9934ff)
+  [Dimensions]	{30% 36%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=gnome-terminal-window-cf53dc9d-9f3a-4124-8a3b-261d0f4b99c2)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{41% 0%}
+[end]
