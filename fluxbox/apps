@@ -9,3 +9,39 @@
   [Workspace]	{1}
   [Position]	(UPPERLEFT)	{41% 0%}
 [end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=term1)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{0% 0%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=term2)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{30% 0%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=term3)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{60% 0%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=term4)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{0% 32%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=term5)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{30% 32%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=term6)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{60% 32%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=9)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{60% 64%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=8)
+  [Workspace]	{1}
+  [Position]	(UPPERLEFT)	{30% 64%}
+[end]
+[app] (name=gnome-terminal-server) (class=Gnome-terminal) (role=term7)
+  [Workspace]	{1}
+  [Dimensions]	{30% 32%}
+[end]
