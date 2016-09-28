@@ -15,15 +15,17 @@ xmodmap "/home/cabrito/.Xmodmap"
 # wmsmixer -w &
 # idesk &
 chromium-browser &
-gnome-terminal &
-gnome-terminal &
-gnome-terminal &
-gnome-terminal &
-gnome-terminal &
-gnome-terminal &
-gnome-terminal &
-gnome-terminal &
-gnome-terminal &
+gnome-terminal --role=term1 &
+gnome-terminal --role=term2 &
+gnome-terminal --role=term3 &
+gnome-terminal --role=term4 &
+gnome-terminal --role=term5 &
+gnome-terminal --role=term6 &
+gnome-terminal --role=term7 &
+gnome-terminal --role=term8 &
+gnome-terminal --role=term9 &
+keepass2 &
+xscreensaver &
 #
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it

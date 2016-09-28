@@ -1,12 +1,2 @@
-xgnomgnome-termina --role=term1
-gnome-terminal --role=term1
-l --role term1
-gnome-terminal --role=term1
-gnome-termina --role=term1
-gnome-terminal --role=term2
-gnome-terminal --role=term3
-gnome-termina --role=term4
-gnome-terminal --role=term4
-gnome-terminal --role=term5
+gnome-terminal
 gnome-terminal --role=term6
-gnome-terminal --role=term7

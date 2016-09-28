@@ -86,6 +86,9 @@ Control Mod1 Delete :Exit
 Control Mod1 Left :PrevWorkspace
 Control Mod1 Right :NextWorkspace
 
+# launch xscreensaver
+Control Mod1 l :Exec xscreensaver-command --lock
+
 # send the current window to previous/next workspace
 Mod4 Left :SendToPrevWorkspace
 Mod4 Right :SendToNextWorkspace
