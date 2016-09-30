@@ -26,6 +26,10 @@ gnome-terminal --role=term8 &
 gnome-terminal --role=term9 &
 keepass2 &
 xscreensaver &
+# Network applet
+nm-applet &
+# Install a volume widget https://www.archlinux.org/packages/community/x86_64/volumeicon/download/
+volumeicon &
 #
 # Debian-local change:
 #   - fbautostart has been added with a quick hack to check to see if it
