@@ -1,0 +1,20 @@
+version: '2'
+services: 
+  search:
+    build:
+      context: .
+      dockerfile: Dockerfile.search
+    image: search
+    entrypoint: 
+      - /docker-entrypoint.sh
+      - elasticsearch
+      - -Ddiscovery.zen.ping.unicast.hosts=172.22.0.3,172.22.0.4,172.22.0.5,172.22.0.6,172.22.0.7,172.22.0.8
+      - -Ddiscovery.zen.minimum_master_nodes=3
+      - -Dnetwork.host=_eth0_
+      - -Des.node.name=_eth0_
+      - -Dindices.breaker.total.limit=80%
+      - -Dindices.breaker.fielddata.limit=75%
+      - -Dindices.fielddata.cache.size=50%
+    ports:
+      - "9200:9200"
+      - "9300:9300"

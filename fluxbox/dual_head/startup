@@ -28,7 +28,8 @@ keepass2 &
 xscreensaver &
 # Network applet
 nm-applet &
-# Install a volume widget https://www.archlinux.org/packages/community/x86_64/volumeicon/download/
+# Install a volume widget with:
+# sudo bash -c "curl -L  https://www.archlinux.org/packages/community/x86_64/volumeicon/download/ |tar -C / -xJvf -"
 volumeicon &
 #
 # Debian-local change:

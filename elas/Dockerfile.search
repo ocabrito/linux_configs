@@ -1,0 +1,8 @@
+FROM elasticsearch
+MAINTAINER Luiz Oliveira <luiz@worldsense.com>
+
+
+EXPOSE 9200 9300
+ENTRYPOINT ["/docker-entrypoint.sh"]
+CMD ["elasticsearch"]
+
