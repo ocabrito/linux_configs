@@ -15,7 +15,7 @@ do
       printf "Maximum latency so far is %s, Average is %s\n" $MAX_LAT $AVR_LAT
     elif [ $[$PING_TOTAL%2] -gt 0 ] 
     then 
-      printf "Current average is %s | Count: %s\n" $AVR_LAT $PING_TOTAL
+      printf "Maximum latency so far is %s, Average is %s\n" $MAX_LAT $AVR_LAT
     fi
   fi
   sleep 2
